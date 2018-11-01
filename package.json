@@ -6,10 +6,11 @@
   "bin": {
     "beanworker": "./bin/beanworker"
   },
-  "bugs": "http://github.com/ceejbot/fivebeans/issues",
+  "bugs": "http://github.com/bruno-buiret/fivebeans/issues",
   "contributors": [
     "Jon Keating <jon@licq.org>",
-    "Jevgenij Tsoi <jevgenij@virtusize.com>"
+    "Jevgenij Tsoi <jevgenij@virtusize.com>",
+    "Bruno Buiret <bruno.buiret@gmail.com>"
   ],
   "dependencies": {
     "js-yaml": "~3.6.1",
@@ -24,7 +25,7 @@
     "must": "~0.13.2",
     "nyc": "~8.1.0"
   },
-  "homepage": "https://github.com/ceejbot/fivebeans#readme",
+  "homepage": "https://github.com/bruno-buiret/fivebeans#readme",
   "keywords": [
     "beanstalkd",
     "jobs",
@@ -35,7 +36,7 @@
   "main": "index",
   "repository": {
     "type": "git",
-    "url": "git://github.com/ceejbot/fivebeans.git"
+    "url": "git://github.com/bruno-buiret/fivebeans.git"
   },
   "scripts": {
     "coverage": "nyc report --reporter=text-lcov | coveralls",

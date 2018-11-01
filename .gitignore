@@ -3,3 +3,5 @@ node_modules
 .DS_Store
 test/coverage.html
 .nyc_output
+.idea
+yarn.lock
