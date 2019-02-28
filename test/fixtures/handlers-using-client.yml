@@ -1,0 +1,9 @@
+host: "localhost"
+port: 11300
+handlers:
+    - "./test/fixtures/handler-using-client.js"
+watch:
+    - 'testtube'
+ignoreDefault: true
+timeout: 1
+useClientInHandlers: true
